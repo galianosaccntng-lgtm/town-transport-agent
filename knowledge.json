@@ -1,0 +1,156 @@
+{
+  "company": {
+    "address": "Lehigh Acres, FL — sin tienda física; solo entregas a domicilio o punto de encuentro",
+    "delivery_zones": "Entrega gratis en el ZIP 33972. Puntos de encuentro: 7-Eleven de Lee Blvd y Sunshine Blvd, o Fresco y Más.",
+    "description": "Venta de aceite para motores diésel por cubeta de 5 galones, con entrega a domicilio. Precio fijo: el precio publicado es el precio final.",
+    "hours": "Lunes a viernes 8:00 a.m. – 6:00 p.m. Sábados y domingos 9:00 a.m. – 5:00 p.m.",
+    "name": "Town Transport LLC",
+    "phone": "(305) 239-6939 (llamada, texto o WhatsApp)",
+    "tagline": "Diesel engine oil · Lehigh Acres, FL",
+    "website": "https://lube.galianos.us",
+    "whatsapp": "https://wa.me/13052396939"
+  },
+  "fallback": "Gracias por escribirnos. Un asesor te responderá en breve. Si prefieres atención inmediata, escríbenos por WhatsApp al (305) 239-6939. ¿Me dejas tu nombre para atenderte mejor?",
+  "faqs": [
+    {
+      "answer": "Vendemos aceite para motores diésel en cubeta de 5 galones:\n\n✅ Shell Rotella T4 15W-40 — $78 (en stock)\n❌ Mobil Delvac 1300 Super 15W-40 — $78 (agotado)\n✅ Chevron Delo 400 XLE SB 15W-40 — $75 (en stock)\n❌ Mystik JT-8 15W-50 — $85 (agotado)\n❌ Everlast SD 15W-50 — $70 (agotado)\n\n¿Te anoto un pedido de alguno disponible?",
+      "keywords": [
+        "producto",
+        "aceite",
+        "tienen",
+        "venden",
+        "lista",
+        "catalogo",
+        "catalog",
+        "oil",
+        "products",
+        "rotella",
+        "delvac",
+        "delo",
+        "mystik",
+        "everlast",
+        "shell",
+        "mobil",
+        "chevron",
+        "marca",
+        "brands"
+      ]
+    },
+    {
+      "keywords": [
+        "precio",
+        "costo",
+        "cuanto",
+        "vale",
+        "price",
+        "cost",
+        "how much"
+      ],
+      "answer": "Precios por cubeta de 5 galones (precio fijo, sin regateo):\n• Shell Rotella T4 15W-40 — $78\n• Chevron Delo 400 XLE SB 15W-40 — $75\n• Mobil Delvac 1300 Super 15W-40 — $78 (agotado)\n• Mystik JT-8 15W-50 — $85 (agotado)\n• Everlast SD 15W-50 — $70 (agotado)\n\nAdemás: 5% de descuento comprando 6 o más cubetas del mismo aceite."
+    },
+    {
+      "keywords": [
+        "descuento",
+        "discount",
+        "oferta",
+        "promo",
+        "mayoreo",
+        "volumen"
+      ],
+      "answer": "Sí: 5% de descuento al comprar 6 o más cubetas del mismo aceite. El precio publicado es fijo, no se regatea."
+    },
+    {
+      "keywords": [
+        "pago",
+        "pagar",
+        "payment",
+        "pay",
+        "tarjeta",
+        "card",
+        "efectivo",
+        "cash",
+        "zelle"
+      ],
+      "answer": "Puedes pagar en efectivo o por Zelle al momento de la entrega, sin recargo. También aceptamos tarjeta, con un recargo de 3.99% + $0.85, y el pago debe quedar confirmado antes de la entrega."
+    },
+    {
+      "keywords": [
+        "envio",
+        "entrega",
+        "delivery",
+        "envían",
+        "despacho",
+        "llevan",
+        "shipping",
+        "domicilio"
+      ],
+      "answer": "Entregamos gratis en el ZIP 33972 (Lehigh Acres, FL). También podemos encontrarnos en el 7-Eleven de Lee Blvd y Sunshine Blvd, o en Fresco y Más."
+    },
+    {
+      "keywords": [
+        "pedido",
+        "comprar",
+        "orden",
+        "quiero",
+        "order",
+        "buy",
+        "como compro",
+        "how to order"
+      ],
+      "answer": "Pedir es fácil, en 3 pasos:\n1️⃣ Elige tu aceite de la lista.\n2️⃣ Pásanos tu dirección (en 33972) o el punto de encuentro.\n3️⃣ Recíbelo y paga en efectivo o Zelle.\n\n¿Con cuál aceite empezamos?"
+    },
+    {
+      "keywords": [
+        "ubicacion",
+        "direccion",
+        "donde",
+        "local",
+        "tienda",
+        "where",
+        "located",
+        "address",
+        "store"
+      ],
+      "answer": "Estamos en Lehigh Acres, FL. No tenemos tienda física: somos solo entrega a domicilio (gratis en 33972) o punto de encuentro."
+    },
+    {
+      "keywords": [
+        "15w-40",
+        "15w-50",
+        "grado",
+        "grade",
+        "viscosidad",
+        "viscosity",
+        "diferencia",
+        "cual"
+      ],
+      "answer": "El 15W-40 es el grado de uso diario que recomiendan la mayoría de los fabricantes de motores diésel; el 15W-50 es más grueso en caliente. Si no estás seguro, dime qué motor o camión tienes y te oriento."
+    },
+    {
+      "keywords": [
+        "horario",
+        "abren",
+        "cierran",
+        "atienden",
+        "hora",
+        "hours",
+        "open",
+        "schedule"
+      ],
+      "answer": "Atendemos de lunes a viernes de 8:00 a.m. a 6:00 p.m., y sábados y domingos de 9:00 a.m. a 5:00 p.m. Escríbenos por WhatsApp al (305) 239-6939 y coordinamos tu entrega."
+    },
+    {
+      "keywords": [
+        "humano",
+        "persona",
+        "asesor",
+        "ayuda",
+        "help",
+        "human",
+        "alguien"
+      ],
+      "answer": "Claro, te comunico con un asesor. Escríbenos directo por WhatsApp al (305) 239-6939 y te atendemos personalmente. ¿Me dejas tu nombre?"
+    }
+  ],
+  "greeting": "¡Hola! Gracias por escribir a *Town Transport LLC* 🛢️ Vendemos aceite para motores diésel por cubeta de 5 galones, con entrega en Lehigh Acres (33972). ¿Buscas precios, disponibilidad o hacer un pedido?"
+}

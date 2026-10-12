@@ -1,0 +1,11 @@
+# Secretos y entorno local — nunca subir a git
+.env
+.env.local
+*.pem
+*.key
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
