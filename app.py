@@ -21,7 +21,7 @@ import os
 import httpx
 from dotenv import load_dotenv
 from fastapi import FastAPI, Request, Response
-from fastapi.responses import PlainTextResponse
+from fastapi.responses import HTMLResponse, PlainTextResponse
 
 from agent import load_knowledge, make_reply
 
@@ -44,6 +44,38 @@ app = FastAPI(title="Agente virtual WhatsApp")
 @app.get("/health")
 async def health():
     return {"ok": True}
+
+
+PRIVACY_HTML = """<!DOCTYPE html>
+<html lang="en">
+<head><meta charset="utf-8"><title>Privacy Policy — Town Transport LLC</title></head>
+<body style="font-family:sans-serif;max-width:720px;margin:2em auto;line-height:1.6;padding:0 1em;">
+<h1>Privacy Policy — Town Transport LLC</h1>
+<p><em>Effective: October 12, 2026</em></p>
+<p>Town Transport LLC ("we") sells diesel engine oil with delivery in Lehigh Acres, FL.
+This policy explains what information we collect when you contact us through WhatsApp
+or Facebook Messenger and how we use it.</p>
+<h2>Information we collect</h2>
+<ul>
+<li>Your phone number and WhatsApp/Messenger profile name.</li>
+<li>The content of messages you send us (questions, orders, delivery address).</li>
+</ul>
+<h2>How we use it</h2>
+<p>We use this information solely to respond to your inquiries, process your orders,
+and arrange deliveries. We do not sell your information and do not share it with
+third parties for marketing.</p>
+<h2>Data retention</h2>
+<p>Message history is kept as long as needed for customer service and order records,
+and can be deleted upon request.</p>
+<h2>Contact</h2>
+<p>To ask about your data, call or text us at (305) 239-6939.</p>
+</body>
+</html>"""
+
+
+@app.get("/privacy", response_class=HTMLResponse)
+async def privacy():
+    return PRIVACY_HTML
 
 
 @app.get("/webhook")
